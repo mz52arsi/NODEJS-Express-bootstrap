@@ -19,9 +19,9 @@ var MemberController = function(){
 					number_queries : doc.number_queries,
 					number_of_answers : doc.number_of_answers
 				};
-				members[i]
+				members_modified.push(members[i]);
 			};
-			response.send(members);
+			response.send(members_modified);
 		});
 	
 	}

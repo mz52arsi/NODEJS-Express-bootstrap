@@ -1,0 +1,24 @@
+{
+  "name": "DieboldFAQ",
+  "version": "1.0.0",
+  "description": "Diebold FAQ Application",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "ejs": "^2.2.4",
+    "express": "^4.11.2",
+    "express-session": "^1.10.2",
+    "redis": "^0.12.1",
+    "mongoose": "^3.8.23"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "FAQ",
+    "Diebold"
+  ],
+  "author": "Moiz",
+  "license": "ISC"
+}
